@@ -1,0 +1,27 @@
+* {
+    
+    background-color : #f8f7ff;
+}
+
+
+
+body {
+    font-family : Century Gothic, CenturyGothic, AppleGothic;
+    color : #b8b8ff;
+}
+
+.venture 
+{
+    text-align : center
+    background-color : #b8b8ff;
+}
+
+p 
+{
+    line-height: 1.5;
+}
+
+.credentials {
+    text-align : right;
+    
+}
