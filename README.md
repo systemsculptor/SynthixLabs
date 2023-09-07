@@ -1,1 +1,1 @@
-http://SynthixLabs.com
+The website contains startups and my projects
