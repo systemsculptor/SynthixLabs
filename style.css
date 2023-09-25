@@ -12,7 +12,7 @@ body {
 
 .venture 
 {
-    text-align : center
+    text-align : center;
     background-color : #b8b8ff;
 }
 
@@ -24,4 +24,15 @@ p
 .credentials {
     text-align : right;
     
+}
+
+section {
+    size: 120%;
+    text-align : center;
+
+}
+
+img {
+    align-content : left;
+
 }
