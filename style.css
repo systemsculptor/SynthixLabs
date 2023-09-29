@@ -12,6 +12,7 @@ body {
 
 .venture 
 {
+    font-size: large;
     text-align : center;
     background-color : #b8b8ff;
 }
@@ -27,9 +28,11 @@ p
 }
 
 section {
-    size: 120%;
+    font-size: large;
     text-align : center;
-
+    border-start-end-radius: 100;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
 }
 
 img {
