@@ -3,8 +3,19 @@
     background-color : #f8f7ff;
 }
 
+h1{
 
+    text-align : center;
+}
+img {
+    width: 50%;
+    border-image-width: 10px;
 
+}
+.inline-block {
+    display: inline-block;
+    float: left;
+ }
 body {
     font-family : Century Gothic, CenturyGothic, AppleGothic;
     color : #b8b8ff;
