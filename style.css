@@ -12,9 +12,11 @@ body {
 
 .venture 
 {
+    font-family : OCR A Std, monospace;
     font-size: large;
     text-align : center;
     background-color : #b8b8ff;
+    color: blue;
 }
 
 p 
