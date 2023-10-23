@@ -3,6 +3,12 @@
     background-color : #f8f7ff;
 }
 
+
+.about:hover{
+
+background-color : green;
+
+}
 h1{
     text-align : center;
     color : black;
