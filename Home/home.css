@@ -1,15 +1,25 @@
-thead tr{
+
+
+thead {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #fefae0;
+    color : #fefae0;
 }
 
 body {
-    background-color: #f5ebe0;
+
+
+    color : #edede9;
+
+
 }
 
 
 section {
+    
+    color: #e3d5ca;
 
-    background-color: #e3d5ca;
+
+
+
 
 }

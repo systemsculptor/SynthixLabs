@@ -5,6 +5,7 @@
 
 h1{
     text-align : center;
+    color : black;
 }
 img {
     width: fit-content;
@@ -50,4 +51,9 @@ section {
 img {
     align-content : left;
 
+}
+
+.login {
+
+    text-align : right;
 }
