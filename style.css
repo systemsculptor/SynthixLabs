@@ -6,12 +6,9 @@
 
 a:hover {
 
-    background-color: green;
+    background-color: #e9edc9;
 }
 
-background-color : green;
-
-}
 h1{
     text-align : center;
     color : black;
@@ -65,4 +62,8 @@ img {
 .login {
 
     text-align : right;
+}
+
+footer thead {
+    background-color: #b8c0ff;
 }
