@@ -1,3 +1,3 @@
 # SynthixLabs
 
-###The Future for Complex Computation
+### The Future for Complex Computation
