@@ -1,3 +1,3 @@
 # SynthixLabs
 
-Risc-v Laptop Company 
+###The Future for Complex Computation
