@@ -6,14 +6,18 @@
 
 a:hover {
 
-    background-color: #e9edc9;
+    background-color: green;
 }
 
-h1{
+h1
+{
+
     text-align : center;
     color : black;
 }
-img {
+
+img 
+{
     width: fit-content;
     width: 15%;
     border-image-width: 10px;
@@ -22,7 +26,8 @@ img {
 }
 
  
-body {
+body 
+{
     font-family : Century Gothic, CenturyGothic, AppleGothic;
     color : #b8b8ff;
 }
@@ -46,7 +51,8 @@ p
     
 }
 
-section {
+section 
+{
     font-size: large;
     text-align : center;
     border-start-end-radius: 100;
@@ -54,16 +60,20 @@ section {
     margin-inline-end: 200px;
 }
 
-img {
+img 
+{
     align-content : left;
 
 }
 
-.login {
+.login 
+{
 
     text-align : right;
 }
 
-footer thead {
-    background-color: #b8c0ff;
+tbody pre
+{
+    text-align : right;
+    color : black;
 }
