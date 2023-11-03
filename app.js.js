@@ -12,6 +12,5 @@ const vue = Vue.createApp({
 
 
 
-
-
 })
+vue.createApp('#body')
