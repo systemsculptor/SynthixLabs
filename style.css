@@ -77,3 +77,8 @@ tbody pre
     text-align : right;
     color : black;
 }
+
+footer tbody pre img {
+    float: right;
+}
+
