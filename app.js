@@ -1,16 +1,25 @@
 const vue = Vue.createApp({
-    data(){
-        var1:
-        var2:
+    
+    data()
+    {
+        about: "about"
+        home: "test"
     },
-    method{
+    method
+    {
+        placeholder() 
+        {
+            
+
+        },
+
+        placeholder2()
+        {
 
 
-
-        
+        }
     }
 
 
-
-})
-vue.createApp('#body')
+});
+vue.mount('#links');
