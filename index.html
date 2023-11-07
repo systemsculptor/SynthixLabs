@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/vue@next"></script>
-        <script src="app.js"> </script>
+        <script src="https://unpkg.com/vue@next"defer></script>
+        <script src="app.js"defer> </script>
     </head>
 <html>
     <body>
@@ -16,11 +16,11 @@
             <div class="inline-block">
                 <a href="Home/laboratory.html"> <img src ="Synthix.png"></a>
             </div>
-        <a class="about" href = "About/about.html" > About Us </a> 
+        <a class="about" v-bind:href = "about" > About Us </a> 
 
-        <a class ="products" href = "Products/Products.html" > Products </a>
+        <a class ="products" v-bind:href = "Products/Products.html" > Products </a>
 
-        <a class="solutions" href = "Solutions/solutions.html" > Solutions  </a>
+        <a class="solutions" v-bind:href = "Solutions/solutions.html" > Solutions  </a>
         
         <a class="research" href = "Research/research.html" > Research  </a>
 
