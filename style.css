@@ -3,10 +3,21 @@
     background-color : #f8f7ff;
 }
 
-h1{
-    text-align : center;
+
+a:hover {
+
+    background-color: green;
 }
-img {
+
+h1
+{
+
+    text-align : center;
+    color : black;
+}
+
+img 
+{
     width: fit-content;
     width: 15%;
     border-image-width: 10px;
@@ -15,7 +26,8 @@ img {
 }
 
  
-body {
+body 
+{
     font-family : Century Gothic, CenturyGothic, AppleGothic;
     color : #b8b8ff;
 }
@@ -39,7 +51,8 @@ p
     
 }
 
-section {
+section 
+{
     font-size: large;
     text-align : center;
     border-start-end-radius: 100;
@@ -47,7 +60,25 @@ section {
     margin-inline-end: 200px;
 }
 
-img {
+img 
+{
     align-content : left;
 
 }
+
+.login 
+{
+
+    text-align : right;
+}
+
+tbody pre
+{
+    text-align : right;
+    color : black;
+}
+
+footer tbody pre img {
+    float: right;
+}
+
