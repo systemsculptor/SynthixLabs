@@ -2,12 +2,19 @@ const vue = Vue.createApp({
     
     data()
     {
-        about: "about"
-        home: "test"
+        return{
+            about: "About/about.html",
+            home: "Home/labratory.html",
+            research: "Research/research.html",
+            contact: "Contact/contact.html",
+            solutions: "Solutions/solutions.html",
+            product: "Products/Products.html"
+
+        };
     },
     method:
     {
-        placeholder() 
+        viewCOunter() 
         {
             
 
