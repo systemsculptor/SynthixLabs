@@ -5,7 +5,7 @@ const vue = Vue.createApp({
         about: "about"
         home: "test"
     },
-    method
+    method:
     {
         placeholder() 
         {
