@@ -1,22 +1,17 @@
-* {
-    
-    background-color : #f8f7ff;
-}
 
-
-a:hover {
+a:hover 
+{
 
     background-color: green;
 }
 
-h1
+.title 
 {
-
     text-align : center;
     color : black;
 }
 
-img 
+.logo
 {
     width: fit-content;
     width: 15%;
@@ -26,10 +21,9 @@ img
 }
 
  
-body 
+body
 {
     font-family : Century Gothic, CenturyGothic, AppleGothic;
-    color : #b8b8ff;
 }
 
 .venture 
@@ -41,17 +35,13 @@ body
     color: blue;
 }
 
-p 
-{
-    line-height: 1.5;
-}
 
 .credentials {
     text-align : right;
     
 }
 
-section 
+.quote 
 {
     font-size: large;
     text-align : center;
@@ -82,3 +72,6 @@ footer tbody pre img {
     float: right;
 }
 
+.community {
+    text-align : center; 
+}
