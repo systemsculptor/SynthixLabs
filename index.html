@@ -7,114 +7,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/vue@next"defer></script>
-        <script src="app.js"defer> </script>
+        <script src="https://unpkg.com/vue@next" deref></script>
+        <script src="app.js"> deref </script>
     </head>
-
 <html>
-<<<<<<< Updated upstream
-    <body>
-        <nav id = "links" class = "links">
+    <body id = "body">
+        <nav id = "links">
             <div class="inline-block">
-                <a class = "logo" href="Home/laboratory.html"> <img src ="Synthix.png"></a>
+                <a href="Home/laboratory.html"> <img src ="Synthix.png" class = logo></a>
             </div>
-        <a class="about" v-bind:href = "about" > About Us </a> 
-=======
-<body>
-    <section id = "links">
->>>>>>> Stashed changes
+        <a class="about" id ="about" v-bind:href = "About/about.html" > About Us </a> 
 
-        <div class="inline-block">
-            <a href="Home/laboratory.html"> <img src ="Synthix.png"></a>
-        </div>
-        <a class="about" v-bind:href = "about"> About Us </a> 
+        <a class ="products" v-bind:href = "Products/Products.html" > Products </a>
 
-        <a class ="products" v-bind:href = "product"> Products </a>
-
-        <a class="solutions" v-bind:href = "solutions"> Solutions  </a>
+        <a class="solutions" v-bind:href = "Solutions/solutions.html" > Solutions  </a>
         
-        <a class="research" v-bind:href = "research"> Research  </a>
+        <a class="research" v-bind:href = "Research/research.html" > Research  </a>
 
-        <a class="contact" v-bind:href = "contact"> Contact</a>
+        <a class="contact" v-bind:href = "Contact/contact.html"> Contact</a>
 
-        <form action="Login/login.html" class="login ">
-            <button a href="Login/login.html"> Login </button>
-        </form>
+        <div>
+            <form action="Login/login.html" class="login ">
 
-<<<<<<< Updated upstream
+                <button a v-bind:href="Login/login.html"> Login </button>
+            </form>
+        </div>
+    </nav>
+
 <section>
-    <h1 class = "title">&#10098; The Future for &#10099; </h1>
-    <h1 class = "title ">&#10097; Complex Technology Solutions  &#10096;</h1>
-        <pre class = "quote">         
-            &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
-            where the pursuit of simplicity not onlybreeds elegance but empowers versatility.
-            Its open design invites collaboration,and its superiority lies in its ability
-            to adapt, evolve, and democratize the future of computing.&#10078;
+    <h1 id = "memo" class = "memo">&#10098; The Future for &#10099; </h1>
+    <h1 id = "memo" class = "memo">&#10097; Complex Technology Solutions  &#10096;</h1>
+
+        <pre class = "quote" id = "quote">         
+    &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
+where the pursuit of simplicity not onlybreeds elegance but empowers versatility.
+Its open design invites collaboration,and its superiority lies in its ability
+to adapt, evolve, and democratize the future of computing.&#10078;
         </pre>
-=======
-    </section>
-
-<section class="memo">
-    <h1>&#10098; The Future for &#10099; </h1>
-    <h1>&#10097; Complex Technology Solutions  &#10096;</h1>
-
-    <pre>         
-        &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
-        where the pursuit of simplicity not onlybreeds elegance but empowers versatility. Its open design 
-        invites collaboration,and its superiority lies in its ability to adapt, evolve, and democratize 
-        the future of computing.&#10078;
-    </pre>
->>>>>>> Stashed changes
-
 </section>
 
 
 <div>
-    <form action="Home/laboratory.html" class="venture">
-        <button> Venture Forth </button>
+    <form action="Home/laboratory.html"class="venture">
+        <button> Venture Forth</button>
     </form>
 </div>
 
-<section id = "RISC-V">
-    Case created
-</section>
 
 
-<div class = "partner">
-    <h1>Community Partners</h1>
-    <img src="risc-v.png" alt ="risc-v international logo " href ="https://riscv.org/"/>
-    <img src="andes.png" alt = "andes technology corporation logo" href="https://www.andestech.com/en/">
-</div>
-
-
-
-<<<<<<< Updated upstream
 <footer> 
     <p> &#182; Synthix Labs 2024 &#174; - Cutting Edge Technologies &#9834;</p>
 </footer>
 
 
-<h3 id = "community"> Community Partners </h3>
-<footer>
-    <pre>
-        <img src="risc-v.png" alt ="risc-v international logo " href ="https://riscv.org/"/>
-        <img src="andes.png" alt = "andes technology corporation logo" href="https://www.andestech.com/en/">
-        <img src=""/>
-    </pre>
-  
-=======
-<footer>
-    <pre>
-        Contact us
-        support@synthixlabs.com
-        questions@synthixlabs.com
-        inquires@synthixlabs.com    
-    </pre>
 
-    <p> &#182; Synthix Labs 2024 &#174; - Cutting Edge Technologies &#9834;</p>
-    
->>>>>>> Stashed changes
-</footer>
+<h3 class ="community"> Community Partners </h3>
+<pre>
+    <img src="risc-v.png" alt ="risc-v international logo " href ="https://riscv.org/"/>
+    <img src="andes.png" alt = "andes technology corporation logo" href="https://www.andestech.com/en/">
+    <img src=""/>
+</pre>
 
 
 

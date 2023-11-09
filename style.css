@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-
 a:hover 
 {
 
@@ -7,49 +5,40 @@ a:hover
 }
 
 .title 
-=======
-a:hover {
-    background-color: green;
-}
-
-/* 
-
-
-*/
-.memo h1
->>>>>>> Stashed changes
 {
     text-align : center;
     color : black;
 }
 
+.quote {
+    text-align : center;
+}
+
 .logo
 {
-    width: fit-content;
-    width: 15%;
-    border-image-width: 10px;
-    float: left;
-    display: inline-block;
+    height : 100px
+    width : 2px;
+    float : left;
 }
  
 body
 {
     font-family : Century Gothic, CenturyGothic, AppleGothic;
 }
+.memo {
 
+    text-align : center;
+}
 .venture 
 {
-    font-family : OCR A Std, monospace;
-    font-size: large;
+    
     text-align : center;
     background-color : #b8b8ff;
-    color: blue;
 }
 
 
 .credentials {
     text-align : right;
-    
 }
 
 .quote 
@@ -61,41 +50,13 @@ body
     margin-inline-end: 200px;
 }
 
-img 
-{
-    align-content : left;
-
-}
-
 .login 
 {
 
     text-align : right;
 }
 
-tbody pre
-{
-    text-align : right;
-    color : black;
-}
 
-footer tbody pre img {
-    float: right;
-}
-
-<<<<<<< Updated upstream
 .community {
     text-align : center; 
 }
-=======
-.partner h3{
-    text-align : center;
-}
-.partner 
-{
-    background-color: #feeafa;
-
-
-}
-
->>>>>>> Stashed changes
