@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+
         <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/vue@next" deref></script>
-        <script src="app.js"> deref </script>
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <script src="app.js"> defer </script>
+
     </head>
 <html>
-    <body id = "body">
-        <nav id = "links">
-            <div class="inline-block">
-                <a href="Home/laboratory.html"> <img src ="Synthix.png" class = logo></a>
-            </div>
-        <a class="about" id ="about" v-bind:href = "About/about.html" > About Us </a> 
+<body id = "body">
+    <nav id = "links">
+        <div class="inline-block">
+            <a v-bind:href="labratory"> <img src ="Synthix.png" class = logo></a>
+        </div>
+        <a class="about" id ="about" v-bind:href = "about" > About Us </a> 
 
-        <a class ="products" v-bind:href = "Products/Products.html" > Products </a>
+        <a class ="products"  v-bind:href = "product" > Products </a>
 
-        <a class="solutions" v-bind:href = "Solutions/solutions.html" > Solutions  </a>
+        <a class="solutions" v-bind:href = "solution" > Solutions  </a>
         
-        <a class="research" v-bind:href = "Research/research.html" > Research  </a>
+        <a class="research" v-bind:href = "research" > Research  </a>
 
-        <a class="contact" v-bind:href = "Contact/contact.html"> Contact</a>
+        <a class="contact" v-bind:href = "contact"> Contact</a>
 
         <div>
-            <form action="Login/login.html" class="login ">
-
-                <button a v-bind:href="Login/login.html"> Login </button>
+            <form v-bind:action="login" class="login ">
+                <button a v-bind:href="login"> Login </button>
             </form>
         </div>
     </nav>
@@ -39,36 +39,26 @@
     <h1 id = "memo" class = "memo">&#10097; Complex Technology Solutions  &#10096;</h1>
 
         <pre class = "quote" id = "quote">         
-    &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
-where the pursuit of simplicity not onlybreeds elegance but empowers versatility.
-Its open design invites collaboration,and its superiority lies in its ability
-to adapt, evolve, and democratize the future of computing.&#10078;
+            &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
+            where the pursuit of simplicity not onlybreeds elegance but empowers versatility.
+            Its open design invites collaboration,and its superiority lies in its ability
+            to adapt, evolve, and democratize the future of computing.&#10078;
         </pre>
+
 </section>
 
 
-<div>
-    <form action="Home/laboratory.html"class="venture">
-        <button> Venture Forth</button>
-    </form>
-</div>
-
-
+<h3 class ="community"> Community Partners </h3>
+<pre>
+    <a v-bind:href="https://riscv.org/"> <img src ="risc-v.png" class = community> </a>
+    <a v-bind:href="https://www.andestech.com/en/"> <img src ="andes.png" class = community> </a>
+</pre>
 
 <footer> 
     <p> &#182; Synthix Labs 2024 &#174; - Cutting Edge Technologies &#9834;</p>
 </footer>
 
 
-
-<h3 class ="community"> Community Partners </h3>
-<pre>
-    <img src="risc-v.png" alt ="risc-v international logo " href ="https://riscv.org/"/>
-    <img src="andes.png" alt = "andes technology corporation logo" href="https://www.andestech.com/en/">
-    <img src=""/>
-</pre>
-
-
-
 </body>
 </html>
+

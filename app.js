@@ -1,32 +1,15 @@
-const vue = Vue.createApp({
-    
+const app = Vue.createApp({
     data()
     {
-        return{
+        return {
             about: "About/about.html",
-            home: "Home/labratory.html",
+            labratory: "Labratory/labratory.html",
+            product: "Products/Products.html",
             research: "Research/research.html",
-            contact: "Contact/contact.html",
-            solutions: "Solutions/solutions.html",
-            product: "Products/Products.html"
-
+            solution: "Solutions/solutions.html",
+            login: "Login/login.html",
+            contact: "Contact/contact.html"
         };
     },
-    method:
-    {
-        viewCOunter() 
-        {
-            
-
-        },
-
-        placeholder2()
-        {
-
-
-        }
-    }
-
-
 });
-vue.mount('#links');
+app.mount('#body');
