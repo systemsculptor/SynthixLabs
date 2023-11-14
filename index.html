@@ -7,15 +7,15 @@
         <title>Document</title>
 
         <link rel="stylesheet" href="style.css">
-        <script src="https://unpkg.com/vue@next" defer></script>
-        <script src="app.js"> defer </script>
+        <script src="https://unpkg.com/vue@next" defer> </script>
+        <script src="app.js" defer > </script>
 
     </head>
 <html>
 <body id = "body">
     <nav id = "links">
         <div class="inline-block">
-            <a v-bind:href="labratory"> <img src ="Synthix.png" class = logo></a>
+            <a v-bind:href ="labratory"> <img src ="Synthix.png" class = logo></a>
         </div>
         <a class="about" id ="about" v-bind:href = "about" > About Us </a> 
 
@@ -25,7 +25,11 @@
         
         <a class="research" v-bind:href = "research" > Research  </a>
 
-        <a class="contact" v-bind:href = "contact"> Contact</a>
+        <a class="contact" v-bind:href = "contact"> Contact </a>
+
+        <a class="journals" v-bind:href = "journal"> Journals </a>
+
+        <a class ="timeline" v-bind:href = "timeline"> Timeline </a>
 
         <div>
             <form v-bind:action="login" class="login ">
