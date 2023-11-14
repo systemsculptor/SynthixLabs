@@ -8,7 +8,9 @@ const app = Vue.createApp({
             research: "Research/research.html",
             solution: "Solutions/solutions.html",
             login: "Login/login.html",
-            contact: "Contact/contact.html"
+            contact: "Contact/contact.html",
+            journal : "Journal/journal.html",
+            timeline : "Timeline/timeline.html"
         };
     },
 });
