@@ -17,7 +17,11 @@ a:hover
 .logo
 {
     height : 100px;
+<<<<<<< Updated upstream
     width : 400px;
+=======
+    width : 300px;
+>>>>>>> Stashed changes
     float : left;
 }
  
