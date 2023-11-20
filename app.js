@@ -13,7 +13,8 @@ const app = Vue.createApp({
             timeline : "Timeline/timeline.html",
             andes: "https://www.andestech.com/en/",
             risc : "https://riscv.org"
-            };
+        };
     },
 });
+
 app.mount('#body');
