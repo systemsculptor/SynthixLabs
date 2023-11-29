@@ -1,3 +1,13 @@
-header{
-    text-align : center;
+h2 {
+    text-align : center; 
+    color :cornflowerblue;
+    font-family :'Courier New', Courier, monospace;
+}
+
+
+pre {
+    color: cornflowerblue;
+    font-family :'Courier New', Courier, monospace;
+
+
 }

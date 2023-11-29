@@ -1,8 +1,3 @@
-a:hover 
-{
-
-    background-color: green;
-}
 
 .title 
 {
@@ -10,27 +5,24 @@ a:hover
     color : black;
 }
 
-.quote {
+.quote pre{
     text-align : center;
+    font-size : 400px;
 }
 
 .logo
 {
     height : 100px;
-<<<<<<< Updated upstream
     width : 400px;
-=======
-    width : 300px;
->>>>>>> Stashed changes
     float : left;
 }
  
 body
 {
-    font-family : Century Gothic, CenturyGothic, AppleGothic;
+    font-family: 'Courier New', Courier, monospace;
 }
 .memo {
-
+    color :cornflowerblue;
     text-align : center;
 }
 .venture 
@@ -65,3 +57,15 @@ body
     width: 400px; 
     height: 120px;
 }   
+
+a:link:hover {
+    color :cornflowerblue;
+}
+
+a:visited {
+    color :darkslateblue;
+}
+
+h3 {
+    color:cornflowerblue;
+}

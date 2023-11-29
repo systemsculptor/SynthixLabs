@@ -13,7 +13,7 @@
     </head>
 <html>
 <body id = "body">
-    <nav id = "links">
+    <nav id = "links" class = "links">
         <div class="inline-block">
             <a v-bind:href ="labratory"> <img src ="Synthix.png" class = logo></a>
         </div>
@@ -30,7 +30,8 @@
         <a class="journals" v-bind:href = "journal"> Journals </a>
 
         <a class ="timeline" v-bind:href = "timeline"> Timeline </a>
-
+        
+        <a  class = "goals" v-bind:href = "goals" > Goals </a>
         <div>
             <form v-bind:action="login" class="login ">
                 <button a v-bind:href="login"> Login </button>
@@ -38,21 +39,20 @@
         </div>
     </nav>
 
+
+
+
 <section>
-    <h1 id = "memo" class = "memo">&#10098; The Future for &#10099; </h1>
-    <h1 id = "memo" class = "memo">&#10097; Complex Technology Solutions  &#10096;</h1>
+    <h2 id = "memo" class = "memo">&#10098; The Future for &#10099; </h2>
+    <h2 id = "memo" class = "memo">&#10097; Complex Technology Solutions  &#10096;</h2>
 
         <pre class = "quote" id = "quote">         
-            &#10077;In the realm of processor architecture, RISC&#9866;V stands as a beacon of innovation, 
-            where the pursuit of simplicity not onlybreeds elegance but empowers versatility.
-            Its open design invites collaboration,and its superiority lies in its ability
-            to adapt, evolve, and democratize the future of computing.&#10078;
+            Innovation, Simplicity, Versatility
         </pre>
-
 </section>
 
 
-<h3 class ="community"> Community Partners </h3>
+<h2 class ="communityTitle"> Community Partners </h3>
 <pre>
     <a v-bind:href="risc"> <img src ="risc-v.png" class = community> </a>
     <a v-bind:href="andes"> <img src ="andes.png" class = community> </a>
