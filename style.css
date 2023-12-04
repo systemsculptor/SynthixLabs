@@ -63,7 +63,8 @@ a:visited {
 
 .communityTitle {
 
-    font-size : 40px;
+    font-size : 30px;
+    text-align : center;
 }
 
 img {
@@ -83,7 +84,7 @@ img {
 .owner {
 
 
-    font-size :30px;
+    font-size :20px;
 }
 .about  {
 
