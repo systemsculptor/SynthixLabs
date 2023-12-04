@@ -3,7 +3,7 @@ const app = Vue.createApp({
     {
         return {
             about: "About/about.html",
-            labratory: "Labratory/labratory.html",
+            labratory: "Labratory/laboratory.html",
             product: "Products/Products.html",
             research: "Research/research.html",
             solution: "Solutions/solutions.html",

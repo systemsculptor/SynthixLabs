@@ -8,29 +8,27 @@
 .quote pre{
     text-align : center;
     font-size : 400px;
+    color: white;
 }
 
 .logo
 {
+    mix-blend-mode: darken;
     height : 100px;
     width : 400px;
     float : left;
+    
 }
  
 body
 {
-    background-color: #ADA8BE;
-    font-family: 'Courier New', Courier, monospace;
+    background-color : #edede9;
+    font-family: monospace;
 }
 .memo {
-    color :cornflowerblue;
-    text-align : center;
-}
-.venture 
-{
-    
-    text-align : center;
-    background-color : #b8b8ff;
+    color: #343a40;
+    text-align: center;
+    font-size : 25px;
 }
 
 
@@ -40,8 +38,7 @@ body
 
 .quote 
 {
-    font-size: large;
-    text-align : center;
+    font-size: 50px;
     border-start-end-radius: 100;
     margin-inline-start: 200px;
     margin-inline-end: 200px;
@@ -54,19 +51,50 @@ body
 }
 
 
-.community {
-    width: 400px; 
-    height: 120px;
-}   
 
 a:link:hover {
-    color :cornflowerblue;
+    color: white;
 }
 
 a:visited {
-    color :darkslateblue;
+    color: white;
 }
 
-h3 {
-    color:cornflowerblue;
+
+.communityTitle {
+
+    font-size : 40px;
+}
+
+img {
+
+    background-color : #ccd5ae;
+    display : inline;
+}
+.risc{
+
+    border-radius: 500px;
+}
+.andes {
+
+    border-radius: 30px;
+}
+
+.owner {
+
+
+    font-size :30px;
+}
+.about  {
+
+    text-align : right;
+    font-size : 20px;
+
+
+}
+
+.company {
+
+
+    font-size: 20px;
 }
