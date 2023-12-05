@@ -13,6 +13,7 @@
     </head>
 <html>
 <body id = "body">
+
     <nav id = "links" class = "links">
         <div class="inline-block">
             <a v-bind:href ="labratory"> <img src ="Synthix.png" class = logo></a>
@@ -31,7 +32,7 @@
 
         <a class ="timeline" v-bind:href = "timeline"> Timeline </a>
         
-        <a  class = "goals" v-bind:href = "goals" > Goals </a>
+        <a class = "goals" v-bind:href = "goals" > Goals </a>
 
         
     </nav>
@@ -40,14 +41,20 @@
 
 
 <section>
-    <h2 id = "memo" class = "memo">&#10098; THE FUTURE  &#10099; </h2>
-    <h2 id = "memo" class = "memo">&#10097; IS HERE &#10096; </h2>
+    <a class="login" v-bind:href="login">
+        <h2 id="memo" class="memo">&#10098; Portal &#10099;</h2>
+    </a>  
+
+
+    <a class = "register" v-bind:href="register">   
+        <h2 id = "memo" class = "memo">&#10097; Enlist &#10096; </h2>
+    </a>
 
         <pre class = "quote" id = "quote">         
-            Innovation, 
-                Simplicity, 
-                    Versatility 
-                        </pre>
+            <span> Innovation,</span>
+                <span>Simplicity,</span>  
+                    <span>Versatility,</span> 
+                        </pre>                     
 </section>
 
 
@@ -60,7 +67,7 @@
     by making it open source, modular. and affordable. We hope to make our motto a reality. 
     Our motto, "To a brighter world where technology is assessible to everyone"
     </pre>
-    <img src = "gentoo.png" class = "gentoo">
+    <img src = "moon.jpg" class = "gentoo">
 </div>
 
 
@@ -72,15 +79,16 @@
         Echelon is a RISC-V Powered laptop with modular capabilities 
         Pinpoint precision allows it to contain the most amount of power 
     </pre>
-    <img src = "openbsd.png" class = "bsd">
+    <img src = "future.jpg" class = "bsd">
 
 </div>
 
 <section class = "com">
-<h2 class ="communityTitle"> Community Partners </h3>
-    <a v-bind:href="risc"> <img src ="risc-v.png" src ="andes.png"class = risc> </a>
-    <a v-bind:href="andes"> <img src ="andes.png" class = andes> </a>
+    <h2 class ="communityTitle"> Community Partners </h3>
+        <a v-bind:href="risc"> <img src ="risc-v.png" src ="andes.png"class = risc> </a>
+        <a v-bind:href="andes"> <img src ="andes.png" class = andes> </a>
 </section>
+
 <footer> 
     <p id = 'owner' class = 'owner'> &#182; Synthix Labs 2024 &#174; - Cutting Edge Technologies &#9834;</p>
 </footer>
