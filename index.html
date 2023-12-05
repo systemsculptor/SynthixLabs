@@ -13,6 +13,7 @@
     </head>
 <html>
 <body id = "body">
+
     <nav id = "links" class = "links">
         <div class="inline-block">
             <a v-bind:href ="labratory"> <img src ="Synthix.png" class = logo></a>
@@ -31,7 +32,7 @@
 
         <a class ="timeline" v-bind:href = "timeline"> Timeline </a>
         
-        <a  class = "goals" v-bind:href = "goals" > Goals </a>
+        <a class = "goals" v-bind:href = "goals" > Goals </a>
 
         
     </nav>
@@ -40,12 +41,12 @@
 
 
 <section>
-    <a class="memo" v-bind:href="Login/login.html">
+    <a class="login" v-bind:href="login">
         <h2 id="memo" class="memo">&#10098; Portal &#10099;</h2>
     </a>  
 
 
-    <a class = memo v-bind:href="new">   
+    <a class = "register" v-bind:href="register">   
         <h2 id = "memo" class = "memo">&#10097; Enlist &#10096; </h2>
     </a>
 
