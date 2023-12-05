@@ -17,6 +17,7 @@
     height : 100px;
     width : 400px;
     float : left;
+    border-radius: 10px;
     
 }
  
@@ -27,7 +28,7 @@ body
 }
 .memo {
     color: #343a40;
-    text-align: center;
+    text-align: right;
     font-size : 25px;
 }
 
@@ -50,14 +51,17 @@ body
     text-align : right;
 }
 
+nav a {
 
+    font-size : 20px;
+}
 
 a:link:hover {
-    color: white;
+    background-color:  #dc790f;
 }
 
 a:visited {
-    color: white;
+    color: #cad2c5;
 }
 
 
@@ -94,12 +98,13 @@ img {
 .gentoo{
     width: 400px;
     height: 400px; 
-
+    border-radius: 60px;
 }
 .bsd {
 
     width: 400px;
     height: 400px;
+    border-radius: 60px;
 }
 .company {
 
@@ -108,6 +113,11 @@ img {
 }
 .com {
 
-    background-color :darkolivegreen;
+    background-color :#006992;
+    border-radius: 15px;
 }
 
+.inno{
+
+    background-color : purple;
+}
