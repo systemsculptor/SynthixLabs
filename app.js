@@ -8,6 +8,7 @@ const app = Vue.createApp({
             research: "Research/research.html",
             solution: "Solutions/solutions.html",
             login: "Login/login.html",
+            register: "Register/register.html"
             contact: "Contact/contact.html",
             journal : "Journal/journal.html",
             timeline : "Timeline/timeline.html",
