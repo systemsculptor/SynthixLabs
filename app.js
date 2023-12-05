@@ -15,6 +15,7 @@ const app = Vue.createApp({
             andes: "https://www.andestech.com/en/",
             risc : "https://riscv.org",
             goals: "Goals/goals.html",
+            journal2: "Journal2/journal2.html",
         };
     },
 });
