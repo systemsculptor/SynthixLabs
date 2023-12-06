@@ -69,11 +69,12 @@ a:visited {
 
     font-size : 30px;
     text-align : center;
+    color : #6B818C;
 }
 
-img {
-    background-color : #ccd5ae;
+.com img{
     display : inline;
+    background-color: #65743A;
 }
 .risc{
 
@@ -109,10 +110,12 @@ img {
 
 
     font-size: 20px;
+    background-color: #DBD9DB;
+    border-radius : 20px;
 }
 .com {
 
-    background-color :#006992;
+    background-color :#314B30;
     border-radius: 15px;
 }
 
@@ -130,11 +133,18 @@ img {
 .leader {
     text-align : right;
     font-size : 20px;
+    background-color: #DBD9DB;
+    border-radius : 20px;
 }
 
 
 .footer {
 
-    border-radius : 20px;
-    background-color :#96939B;
+    background-color :#052F5F;
+}
+
+.ball{
+    height: 400px;
+    width: 850px;
+    border-radius: 10px;
 }
