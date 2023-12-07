@@ -11,6 +11,7 @@ h3 {
 }
 
 pre {
-
-    color : #004040;
+    background-color :#564D4A;
+    color : white;
+    border-radius: 20px;
 }
