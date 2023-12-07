@@ -1,7 +1,7 @@
 h2 {
 
     text-align : center;
-    color :cornflowerblue;
+    color :whitesmoke;
     font-family :'Times New Roman', Times, serif:
 }
 
@@ -13,4 +13,15 @@ h3 {
 pre {
 
     color : #004040;
+}
+
+.quote {
+    text-align : left;
+    font-size : 40px;
+}
+
+
+.back {
+
+    background-color : #403d39;
 }
