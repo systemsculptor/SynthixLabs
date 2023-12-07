@@ -73,7 +73,7 @@ a:visited {
 
 .com img{
     display : inline;
-    background-color: #65743A;
+
 }
 .risc{
 
@@ -98,11 +98,11 @@ a:visited {
 }
 
 
-.images {
+.space {
 
     width: 400px;
     height: 400px;
-    border-radius: 60px;
+    border-radius: 50px;
 }
 
 .company {
@@ -110,7 +110,6 @@ a:visited {
 
     font-size: 20px;
     background-color : #D98324;
-    border-radius : 20px;
     color: #EFE9E7;
 }
 .com {
@@ -154,5 +153,11 @@ a:visited {
 
     background-color :#564D4A;
     border-color: #343a40;
+    border-radius: 10px;
+}
+
+.future {
+    width: 700px;
+    height: 350px;
     border-radius: 10px;
 }
