@@ -30,4 +30,12 @@ img{
 
     width : 200px;
     height : 200px;
+    
+}
+
+nav {
+
+    position: fixed;
+    display : flex;
+    justify-content: space-between;
 }

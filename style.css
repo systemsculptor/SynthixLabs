@@ -53,6 +53,7 @@ body
 nav a {
 
     font-size : 20px;
+
 }
 
 a:link:hover {
@@ -154,7 +155,10 @@ a:visited {
     background-color :#564D4A;
     border-color: #343a40;
     border-radius: 10px;
+    display : flex;
+    justify-content: space-between;
 }
+
 
 .future {
     width: 700px;
