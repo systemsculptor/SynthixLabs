@@ -16,6 +16,7 @@ const app = Vue.createApp({
             risc : "https://riscv.org",
             goals: "Goals/goals.html",
             journal2: "Journal2/journal2.html",
+            bibli: "Bibliography/bib.index",
         };
     },
 });
