@@ -19,7 +19,6 @@
     border-radius : 5px;
     
 }
- 
 body
 {
     background-color : #edede9;
@@ -46,8 +45,8 @@ body
 
 .login 
 {
-
-    text-align : right;
+    display : flex;
+    justify-content : flex-end;
 }
 
 nav a {
@@ -162,4 +161,10 @@ a:visited {
     width: 700px;
     height: 350px;
     border-radius: 10px;
+}
+
+
+@media () {
+
+    
 }
