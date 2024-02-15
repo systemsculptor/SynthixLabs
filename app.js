@@ -17,6 +17,7 @@ const app = Vue.createApp({
             goals: "Goals/goals.html",
             journal2: "Journal2/journal2.html",
             bibli: "Bibliography/bib.html",
+            journal3: "Journal3/journal3.html",
         };
     },
 });
