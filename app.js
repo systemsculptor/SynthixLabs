@@ -1,25 +1,25 @@
 const app = Vue.createApp({
-    data()
-    {
+    data() {
         return {
-            about: "About/about.html",
-            labratory: "Labratory/laboratory.html",
-            product: "Products/Products.html",
-            research: "Research/research.html",
-            solution: "Solutions/solutions.html",
-            login: "Login/login.html",
-            register: "Register/register.html",
-            contact: "Contact/contact.html",
-            journal : "Journal/journal.html",
-            timeline : "Timeline/timeline.html",
+            about: "about/about.html",
+            labratory: "labratory/laboratory.html",
+            product: "products/Products.html",
+            research: "research/research.html",
+            solution: "solutions/solutions.html",
+            login: "login/login.html",
+            register: "register/register.html",
+            contact: "contact/contact.html",
+            journal : "journal/journal.html",
+            timeline : "timeline/timeline.html",
             andes: "https://www.andestech.com/en/",
             risc : "https://riscv.org",
-            goals: "Goals/goals.html",
-            journal2: "Journal2/journal2.html",
-            bibli: "Bibliography/bib.html",
-            journal3: "Journal3/journal3.html",
+            goals: "goals/goals.html",
+            journal2: "journal2/journal2.html",
+            bibli: "bibliography/bib.html",
+            journal3: "journal3/journal3.html",
         };
     },
 });
+
 
 app.mount('#body');
