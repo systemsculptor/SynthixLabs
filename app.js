@@ -19,6 +19,15 @@ const app = Vue.createApp({
             journals: "journals/journal.html",
         };
     },
+
+    methods: {
+        onClick() {
+            
+
+
+        }
+
+    }
 });
 
 
