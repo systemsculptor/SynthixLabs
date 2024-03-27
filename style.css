@@ -168,3 +168,12 @@ a:visited {
 
     
 }
+.rightsidebar {
+    width: 300px; /* Adjust width as needed */
+    float: right; /* or left, depending on your layout */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.ad {
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
