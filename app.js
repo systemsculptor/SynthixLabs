@@ -9,7 +9,7 @@ const app = Vue.createApp({
             login: "login/login.html",
             register: "register/register.html",
             contact: "contact/contact.html",
-            journal : "journal/journal.html",
+            journals : "journals/journal.html",
             timeline : "timeline/timeline.html",
             andes: "https://www.andestech.com/en/",
             risc : "https://riscv.org",
