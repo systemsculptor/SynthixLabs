@@ -25,33 +25,56 @@
 
 
 <h3> My research and What i learned </h3>
-<pre> This journal mainly focuses on revision, during these time frames i have been in Fusion 360 
-    Similar to solidworks, building the ports for my case, making it more modular and having tweaks to 
-    the function of the case, The features i have implemented were a rail for the modular chipset 
-    "motherboard to slide in " i have made it so it slides in from the back instead of the sides,
-    this would allow me to have modular port systems so for example if you need a USB-C port instead of 
-    a USB-2.0 Port you could swap that out. The top case i have built a modular trackpack system so you can 
-    swap keyboards in and out, also for the trackpack with a big square shape for user experience.
-
-    I have been designing a port system for my laptop which has a usb-c connected to the end with any 
-    type of port at the front 
-    <img src="">
-    As you can see if you need a ethernet you can just swap it in, the good thing about these ports is that 
-    i have made it wide enoguh so each port can fit the type you need, 
-    i have built 4 types below, usb to usb2.0 usbc to uscb c port uscb c to ethernet and usbc to hdmi
-
-    into the mechanism itself the mechanism i have used for my laptop
-    makes it so if you press a button the port will pop out, this makes it easy and efficient for this type
-    of laptop. how it works is that.
-    <img src="">
-    i have developed the rail system for the pcb, so it wont just grind on the floor of the laptop and it will slide easily in and out.
-    i have developed each key for the laptop and i will be gluing them onto my switches because i dont have enough time for the key mechanism
-    the modular keyboard has been developed for easy switching and switching in, if i have enough time i will 3d print some more at ccic 
-    because it will show the usage of a modular keyboard, the keycaps being more formfitting, and breaking a keyboard in half to easily replace it in 
 
 
 
+<pre> 
 
+    In order to make a modular laptop, the case is the most crucial part because it dictates how everything is going to fit, be placed and the functionality
+    is designed off of the case, this will be focusing on revision and maximizing the functionality of the case, and what is within it.
+    The front case is designed for a modular keyboard to be able to fit into it, the reason we need a modular keyboard is first, if it breaks 
+    you can easily replace it, there has been studies on how the keycap form factor plays into the user experience and decreasing arthrithis.
+    sculpted keycaps for example allow for the fingers to rest higher on the keyboard. this allows for a more confortable typing experience.
+    the size of the keyboard case is especially big
+    <img src = monitorTop.png" > 
+    
+    because if users want to integate a keyboard calculator into the equation, or a lcd screen 
+    for multitasking uses, the keyboard case is designed to be able to fit that in. looking at the touchpad, the research that has been going into the 
+    size of the touchpad is that risc-v is a relatively new archeticture, and the performance for it is not great. so to compensate for that we need a 
+    bigger touchpad to make it unique from the rest and sell it to the general consumer who needs a laptop that they can enjoy, the bigger the touchpad
+    it means that the precision on the screen is widely increased. i have chosen a force touch touchpad that uses force sensors so that it can be clicked
+    from all angles and give haptic feedback. like with the case the touchpad is also modular so if it breaks you can easily replace it.
+    moving on 
+    from the front case to the back case you can see that the case has many open areas. the back for example allows the actual pcb to go in 
+    and slide into the mechanism, i have chosen an keyboard drawer rail in order for my pcbs to fit in the right area, this is a concept because the left and right
+    pcbs can go in but the middle cannot, looking to the sides we see that there is open ports that are pretty big, the reason for the size of these ports is it is built
+    to accomidate all types of ports, all of the modular ports are connected to usbc, it will support ethernet, usbc to usbc, usbc to hdmi usbc to usb2.0
+    now for the research i am planning on using Slide Latches because these latches are foundationally simple, if you push the port far enough into the slot
+    it will click in place, pressing a button on the slide makes the slide, move back and allow the port to pop out. 
+    onto the monitor, this is specially designed to be able to swap the lcd screens in easily and replace it easily out. the sides are wide open and allow the 
+    lcd screen to be able to fit in. the top of the case where the camera resides is intentially big so that any camera can fit in, and has a extra camera blocker in place
+    the bottom of the monitor case has two open holes because most lcd screens have wires either connected to a seperate controller board so this will help guide them in and 
+    keep them stable. 
+
+    types of mechanisms i have researched and which one i have picked for my laptop
+    Spring-Loaded Latches: These latches typically consist of a spring-loaded mechanism that engages with a corresponding slot or notch on the modular component.
+     When the component is inserted into the port, the latch automatically engages, holding the component securely in place. To remove the component, the latch
+      is typically released by pressing a button or lever.
+
+    Slide Latches: Slide latches involve a sliding mechanism that locks the modular component in place.
+     When the component is fully inserted into the port, the latch slides into position, preventing the component 
+     from being pulled out accidentally. Releasing the latch usually involves sliding it back or pressing a release button.
+
+    Magnetic Latches: Some modular ports use magnetic latches to secure the components.
+     Magnets embedded in the port and the component attract each other, holding the component 
+     firmly in place. To remove the component, it must be pulled with sufficient force to overcome the magnetic attraction.
+
+    Rotating Latches: Rotating latches involve a mechanism that rotates to lock the modular
+     component in place. When the component is fully inserted, the latch rotates into a locking position
+     , preventing the component from being removed unintentionally. Releasing the latch typically involves rotating it back to its original position.
+
+    I have chosen the slide latches because fundenentally they are very simple and have not that many moving parts.
+    
 
 
 
