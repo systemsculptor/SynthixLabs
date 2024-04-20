@@ -177,3 +177,46 @@ a:visited {
 .ad {
     margin-bottom: 20px; /* Adjust margin as needed */
 }
+
+.links a {
+    transition: all 0.3s ease;
+}
+
+.links a:hover {
+    transform: translateY(-10px);
+}
+
+.login a {
+    transition: all 0.3s ease;
+}
+
+.login a:hover {
+    transform: translateY(-10px);
+}
+
+
+
+.animated-text {
+    opacity: 0;
+    position: relative;
+    animation: slideIn 2s forwards;
+}
+
+.animated-text:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.animated-text:nth-child(3) {
+    animation-delay: 4s;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        left: -100px;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
